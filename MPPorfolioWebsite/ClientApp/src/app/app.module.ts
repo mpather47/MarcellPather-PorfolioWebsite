@@ -12,6 +12,8 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { SideNavMenuComponent } from './side-menu/side-menu.component';
 import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { TopNavMenuComponent } from './top-nav-menu/top-nav-menu.component';
+import { SkillsComponent } from './skills/skills.component';
+import { CarouselComponent } from './carousels/carousel.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { TopNavMenuComponent } from './top-nav-menu/top-nav-menu.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    TopNavMenuComponent
+    TopNavMenuComponent,
+    SkillsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
