@@ -1,23 +1,218 @@
-/* You can add global styles to this file, and also import other style files */
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
 
-/* Provide sufficient contrast against white background */
-
-a {
-  color: #0366d6;
+/* Tabs*/
+section {
+  margin: 50px 50px 50px 50px;
+  ;
+  padding: auto;
 }
 
-code {
-  color: #e01a76;
+
+#tabs {
+  background: #111821;
+  color: #eee;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
+  #tabs .nav-tabs {
+    border: none;
+  }
+
+    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      color: #17a2b8;
+      background-color: transparent;
+      border-color: transparent transparent #17a2b8;
+      border-top: 2px solid !important;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    #tabs .nav-tabs .nav-link {
+      border: 1px solid transparent;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      font-size: 15px;
+    }
 
 #wrapper {
   overflow-x: hidden;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  padding-top: 25px;
+  background: transparent;
+}
+
+.jumbotron2 {
+  background-color: #111821;
+  margin: 0 auto;
+  padding-right: 200px;
+  padding-top: 25px;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 800px;
+  top: 0px;
+  z-index: -1;
+}
+
+.resultContainer {
+  display: flex;
+}
+
+@media(min-width:800px) {
+  .descript {
+    font-size: 17px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 15px;
+    color: #b8babd;
+  }
+}
+
+@media(min-width:300px) {
+  .descript {
+    font-size: 17px;
+    margin-top: 15px;
+    color: #b8babd;
+  }
+}
+
+.coming {
+  color: #b8babd;
+}
+
+.scala {
+  color: red;
+}
+
+a {
+  color: white;
+}
+
+  a:link {
+    text-decoration: none;
+  }
+
+.r {
+  color: #b8babd;
+}
+
+a:hover {
+  color: white;
+}
+
+.side {
+  background-color: #1e2a3a;
+}
+
+.wrapper {
+  display: flex;
+  align-self: center;
+}
+
+.bookImage,
+.bookTitle {
+  margin-left: 20px;
+}
+
+.navbar {
+  background-color: #1e2a3a;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #111821;
+}
+
+.circle-icon {
+  background: #17a2b8;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 60%;
+}
+
+.circle-icon2 {
+  background: #17a2b8;
+  padding: 10px;
+  margin-left: 12px;
+  border-radius: 60%;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.icon {
+  padding: 5px;
+  margin-left: 10px;
+  color: #17a2b8
+}
+
+.text2 {
+  font-weight: bold;
+}
+
+
+.card {
+  background-color: #1e2a3a;
+}
+
+.fa-js-square {
+  color: yellow;
+}
+
+.faz {
+  color: white;
+}
+
+.fa-java {
+  color: red;
+}
+
+.fa-python {
+  color: #5F9EA0;
+}
+
+
+.fa-html5 {
+  color: red;
+}
+
+
+.fa-slash {
+  transform: rotate(53deg);
+  color: #5F9EA0;
+}
+
+.fa-css3-alt {
+  color: blue;
+}
+
+.fa-database {
+  color: yellow;
+}
+
+.main {
+  color: #b8babd;
+  font-size: 18px;
+}
+
+hr {
+  background-color: #1d242c;
+  height: 0.3px;
+  width: 100%;
+}
+
+.sidebarLine {
+  color: #2d3846;
 }
 
 #sidebar-wrapper {
@@ -27,12 +222,193 @@ code {
   width: auto;
 }
 
+
+
+
+
 .scrollbar {
   height: 740px;
-  background: #000000;
+  background: #black;
   overflow: scroll;
 }
 
 .force-overflow {
   min-height: 450px;
 }
+
+
+div.ex3 {
+  height: 740px;
+  overflow: auto;
+}
+
+
+#style-1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  background-color: #1e2a3a;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 8px;
+  background-color: #1e2a3a;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #293544;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+@media (min-width: 1200px) {
+  #page-content-wrapper {
+    padding-left: 260px;
+  }
+}
+
+  @media (max-width: 400px) {
+    #page-content-wrapper {
+      padding-left: 0px;
+    }
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -3.5;
+  }
+
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  }
+
+    @media(min-width:800px) {
+      .cardClass {
+        padding-left: 60px;
+      }
+    }
+
+    .top {
+      margin-left: 50px;
+    }
+
+    .name {
+      margin-left: 35px;
+    }
+
+    .name2 {
+      margin: auto;
+    }
+
+    .what {
+      margin-left: 50px;
+    }
+
+    @media(min-width:400px) {
+      .cardClass {
+        align-items: center;
+      }
+    }
+
+
+
+
+    table {
+      background-color: #151e29;
+    }
+
+    .border-0 {
+      font-size: 18px;
+    }
+
+    .pricing-table .price-number {
+      font-size: 1.5rem;
+      font-weight: bold
+    }
+
+    td {
+      height: 50px;
+      vertical-align: bottom;
+      color: #b8babd;
+    }
+
+    .pricing-0-data {
+      color: #b8babd;
+    }
+
+    .fa-check {
+      color: green;
+    }
+
+    .email {
+      color: green;
+    }
+
+    table.table-bordered {
+      border: 1px solid #1d242c;
+    }
+
+      table.table-bordered > thead > tr > th {
+        border: 1px solid #1d242c;
+      }
+
+      table.table-bordered > tbody > tr > td {
+        border: 1px solid #1d242c;
+      }
+
+      table.table-bordered th, td {
+        border: 1px solid #1d242c;
+      }
+
+      table.table-bordered > tfoot > tr > td {
+        border: 1px solid #1d242c;
+      }
+
+    th, td {
+      padding: 20px;
+    }
+
+    tr td i[class*="icon"] {
+      display: block;
+      height: 50%;
+      width: 50%;
+      margin: auto;
+    }
+
+    .pricing-table {
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+
+
+    .skills {
+      margin-left: 50px;
+    }
+
+    .img-circle {
+      height: auto;
+      width: 75%;
+    }
+
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  
