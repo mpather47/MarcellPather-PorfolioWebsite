@@ -27,14 +27,14 @@
       </div>
       <div class="list-group">
         <ul class="list-unstyled text2 pl-3 ">
-          <li class="pb-3"><i class="faz fas fa-user fa-1x pr-3"></i><a class="r" href="index.html"> About</a></li>
-          <li class="pb-3"><i class="faz fas fa-laptop-code fa-1x pr-3 "></i><a class="r" href="Portfolio.html"> Portfolio</a></li>
-          <li class="pb-3"><i class="faz fas fa-briefcase fa-1x pr-3"></i><a class="r" href="Services&Pricing.html">  Services & Pricing</a></li>
-          <li><i class="faz fas fa-envelope-open-text fa-1x pr-3"></i><a class="r" href="Contact.html"> Contact</a></li>
+          <li class="pb-3" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }"><i class="fas fa-user fa-1x pr-2"></i><a class="r" [routerLink]="['/']"> About</a></li>
+          <li class="pb-3" [routerLinkActive]="['link-active']"><i class="fas fa-laptop-code fa-1x pr-1"></i><a class="r" [routerLink]="['/portfolio']"> Portfolio</a></li>
+          <li class="pb-3" [routerLinkActive]="['link-active']"><i class="fas fa-briefcase fa-1x pr-2"></i><a class="r" [routerLink]="['/services']">  Services & Pricing</a></li>
+          <li><i class="fas fa-envelope-open-text fa-1x pr-2" [routerLinkActive]="['link-active']"></i><a class="r" [routerLink]="['/contact']"> Contact</a></li>
         </ul>
       </div>
       <div class=" text-center  ">
-        <button type="button" onclick="document.location='Contact.html'" class="btn btn-info btn-lg"><i class="fas fa-paper-plane"></i> Hire me</button>
+        <button type="button" [routerLink]="['/contact']" class="btn btn-info btn-lg"><i class="fas fa-paper-plane"></i> Hire me</button>
       </div>
     </div>
   </div>

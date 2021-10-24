@@ -1,68 +1,12 @@
 <div class="fluid-container" id="page-content-wrapper">
 
-  <nav class="navbar navbar-expand-lg navbar-dark pr-5 d-xl-none d-lg-none,d-none d-lg-block d-xl-none">
-    <div></div>
-    <center><a href="index.html" class="text-light"><h4 class="text-center d-xl-none">Marcell Pather</h4></a></center>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <div class="force-overflow">
-        <div class="sidebar-heading text-center">
-          <div class="text-center">
-            <br>
-            <img src="marcell-color.jpg" class="rounded-circle" alt="Cinque Terre" width="200" height="200"><br>
-
-
-          </div><br>
-          <p class="text text-center text-white pb-2">Hi, my name is Marcell Pather and I'm<br>a software engineer. Welcome to my <br> personal website!</p>
-
-          <a href="https://twitter.com/MarcellPather" target="_blank"><i class="fab fa-twitter fa-1x circle-icon2 twitter"></i></a>
-          <a href="https://www.linkedin.com/in/marcell-pather-55549913b/" target="_blank"><i class="fab fa-linkedin-in fa-1x circle-icon2"></i></a>
-          <a href="https://github.com/mpather47" target="_blank"><i class="fab fa-github-alt fa-1x circle-icon2"></i></a>
-          <a href="https://stackoverflow.com/users/6952934/marcell-pather" target="_blank"><i class="fab fa-stack-overflow fa-1x circle-icon2"></i></a>
-          <a href="https://codepen.io/mpather47" target="_blank">  <i class="fab fa-codepen fa-1x circle-icon2"></i></a>
-          <div class="sidebarLine pb-3">  </div>
-          <hr>
-        </div>
-        <div class="list-group">
-          <ul class="list-unstyled text2 pl-3 ">
-            <li class="pb-3"><i class="faz fas fa-user fa-1x pr-3"></i><a class="r" href="index.html"> About</a></li>
-            <li class="pb-3"><i class="faz fas fa-laptop-code fa-1x pr-3 "></i><a class="r" href="Portfolio.html"> Portfolio</a></li>
-            <li class="pb-3"><i class="faz fas fa-briefcase fa-1x pr-3"></i><a class="r" href="Services&Pricing.html">  Services & Pricing</a></li>
-            <li><i class="faz fas fa-envelope-open-text fa-1x pr-3"></i><a class="r" href="Contact.html"> Contact</a></li>
-          </ul>
-
-          <br>
-          <br>
-        </div>
-        <div class=" text-center  ">
-
-          <button type="button" onclick="document.location='Contact.html'" class="btn btn-info btn-lg"><i class="fas fa-paper-plane"></i> Hire me</button>
-          <br>
-          <br>
-
-
-        </div>
-      </div>
-      <br>
-      <br>  <br>
-      <br>
-      <br>
-
-
-
-
-    </div>
-  </nav>
+  <app-top-nav-menu></app-top-nav-menu>
 
   <div class="jumbotron2 d-none d-sm-block, d-sm-none d-md-block,d-md-none d-lg-block ">
     <div class="text-center">
       <h2 class="pt-4 font-weight-bold text-white ">Portfolio</h2>
       <p class="descript">Welcome to my online portfolio. Here you will find some of my recent works.<br> I'm taking on freelance work at the moment. Want some help building your software?</p>
-      <button type="button" onclick="document.location='Contact.html'" class="btn btn-info btn-lg"><i class="fas fa-paper-plane"></i>Hire me</button>
+      <button type="button" [routerLink]="['/contact']" class="btn btn-info btn-lg"><i class="fas fa-paper-plane"></i>Hire me</button>
 
       <div class="pb-5">  </div>
     </div>
@@ -156,7 +100,7 @@
 
   </div>
 
-  <div class="jumbotron d-block d-sm-none,d-none d-md-block d-lg-none">
+  <div class="jumbotron3 d-block d-sm-none,d-none d-md-block d-lg-none">
     <div class="text-center">
       <h2 class="pt-4 font-weight-bold text-white ">Portfolio</h2>
       <p class="descript">Welcome to my online portfolio. Here you will find some of my recent works.<br> I'm taking on freelance work at the moment. Want some help building your software?</p>
