@@ -6,41 +6,14 @@
   <div class="jumbotron">
     <div class="row top">
       <div class="col-md-6 pt-5  d-none d-sm-block, d-sm-none d-md-block,d-md-none d-lg-block">
-        <h1 class="font-weight-bold mb-1 text-white">Marcell Pather<br><h4 class="text-white font-weight-light">Junior Software Engineer</h4></h1>
-        <p class=" main ">
-          I'm a software engineer specialised in frontend and
-          backend development for a variety of complex apps.
-          Want to know how I may help your project?
-          Check out my project portfolio and online resume.
-        </p>
-        <br>
-        <div>
-          <button type="button" [routerLink]="['/portfolio']" class="btn btn-outline-info btn-lg"><i class="fas fa-arrow-alt-circle-right"></i> View Portfolio</button>
-          <button type="button" onclick="document.location='/assets/files/Resume.pdf'" class="btn btn-info btn-lg"  target=”_blank”><i class="fas fa-file"></i> Resume</button>
-        </div>
-
+        <app-topdiv></app-topdiv>
       </div>
-
-      <div class="col-md-6    d-block d-sm-none,d-none d-md-block d-lg-none">
-        <h1 class="font-weight-bold mb-1 text-white">Marcell Pather<br><h4 class="text-white font-weight-light">Junior Software Engineer</h4></h1>
-        <p class=" main ">
-          I'm a software engineer specialised in frontend and
-          backend development for a variety of complex apps.
-          Want to know how I may help your project?
-          Check out my project portfolio and online resume.
-        </p>
-        <br>
-        <div>
-          <button type="button" onclick="document.location='Portfolio.html'" class="btn btn-outline-info btn-lg"><i class="fas fa-arrow-alt-circle-right"></i> View Portfolio</button>
-          <button type="button" onclick="document.location='Resume.pdf'" class="btn btn-info btn-lg"><i class="fas fa-file"></i> Resume</button>
-        </div>
-
+      <div class="col-md-6 d-block d-sm-none,d-none d-md-block d-lg-none">
+        <app-topdiv></app-topdiv>
       </div>
-
       <div class="col-md-6 pt-5  d-none d-sm-block, d-sm-none d-md-block,d-md-none d-lg-block">
-        <img class="img-circle" src="/assets/images/marcell-bw.jpg" width="340" height="340">
+        <img class="img-circle" src="/assets/images/marcell-bw.jpg" width="320" height="320">
       </div>
-
       <div class="col-md-6 pt-5   d-block d-sm-none,d-none d-md-block d-lg-none">
         <center><img class="img-circle" src="/assets/images/marcell-bw.jpg" width="300" height="300"></center>
       </div>
@@ -68,7 +41,6 @@
 
       <h2 class="name font-weight-bold mb-1 text-white  pt-5"><i class="fas fa-slash fa-sm mr-2"></i>Testimonials</h2>
       <app-carousel></app-carousel>
-
       <hr>
       <h2 class="name font-weight-bold mb-1 text-white  pt-5 pb-5"><i class="fas fa-slash fa-sm mr-2"></i>Featured projects</h2>
 
@@ -98,19 +70,13 @@
         <br>
 
       </div>
+
       <br>
-
-
 
       <div class="pt-5 text-center">
         <button type="button" onclick="document.location='Portfolio.html'" class="btn btn-info btn-lg"><i class="fas fa-arrow-alt-circle-right"></i>View Portfolio</button>
       </div>
     </div>
-
-      
-
-      
     </div>
-
   </div>
 

@@ -17,6 +17,8 @@ import { CarouselComponent } from './carousels/carousel.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
+import { TopDivComponent } from './home/top-div/topdiv.component';
+import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { ContactComponent } from './contact/contact.component';
     CarouselComponent,
     PortfolioComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    TopDivComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
