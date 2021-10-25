@@ -12,7 +12,7 @@ namespace MPPorfolioWebsite.Controllers
     [Route("[controller]")]
     public class HomeController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("GetTechnologies")]
         public List<Technologies> GetTechnologies()
         {
             return MockData.Technologies();

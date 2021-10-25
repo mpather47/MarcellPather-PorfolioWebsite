@@ -56,10 +56,11 @@ namespace MPPorfolioWebsite.Data
                 },
                 new Technologies()
                 {
-                    Icon = "fab fa-angular",
+                    Icon = "fab fa-angular fa-2x",
                     Name = "Angular",
                     Description = "Large scalable web applications, modular interface designs, improved website performance"
                 }
+                
             };
 
             return technologies;
